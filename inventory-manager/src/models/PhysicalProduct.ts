@@ -14,6 +14,3 @@ export class PhysicalProduct extends Product {
         return `${this.weight} kg`
     }
 }
-
-const physicalProduct = new PhysicalProduct("SKU001", "Physical Product", 100, 2.5);
-console.log(physicalProduct.displayDetails()); // Output: SKU: SKU001, Name: Physical Product, Price: $100.00 weight: 2.5 kg
