@@ -1,4 +1,4 @@
-import {Product} from "./Product";
+import { Product } from "./Product";
 
 export class DigitalProduct extends Product {
     fileSize: number;
@@ -7,9 +7,11 @@ export class DigitalProduct extends Product {
         super(sku, name, price);
         this.fileSize = fileSize;
     }
+
     override getPriceWithTax(): number {
         return this.price;
     }
+
     get formattedFileSize(): string {
         return `${this.fileSize} MB`;
     }
