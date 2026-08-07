@@ -1,1 +1,1 @@
-# lab-1-inventory-tracker
+# lab-1-inventory-manager
